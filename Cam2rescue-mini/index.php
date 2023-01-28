@@ -11,7 +11,7 @@
             <nav>
                 <ul>
                     <li><button class="home-btn">Home</button></li>
-                    <li><button class="about-btn">About</button</li>
+                    <li><button class="about-btn">About</button></li>
                     <li><button class="contact-btn">Contact</button></li>
                     <li><button class="signup-btn">Sign-up</button></li>
                     <li><button class="login-btn">Login</button></li>
