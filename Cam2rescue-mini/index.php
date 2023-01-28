@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>An Online Platform for Pet Rescue and Shelters</title>
+        <link rel="stylesheet" href="assets/css/index.css">
     </head>
     <body>
         <header>
@@ -18,9 +19,14 @@
         </header>
         <h1>Cam2Rescue</h1>
         <section>
-            <div class="">
-                <h4>Cats and Dogs</h4>
-                <p class=""><span>Adopt</span>Any Pet You Like!</p>
+            <div class="row">
+                <div class="column">
+                    <h4>Cats and Dogs</h4>
+                    <p class=""><span>Adopt</span> Any Pet You Like!</p>
+                </div>
+                <div class="column">
+                    <img src="assets/img/catt.jpg" alt="cat and dog">
+                </div>
             </div>
         </section>
     </body>
