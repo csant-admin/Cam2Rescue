@@ -1,8 +1,8 @@
 <?php
     class Database {
         protected function connect() {
-          $server = localhost;
-          $username = root;
+          $server = "localhost";
+          $username = "root";
           $password = "";
           try{
            $conn = new PDO("mysql:host=$server; dbname=cam2rescue_mini", $username, $password);
