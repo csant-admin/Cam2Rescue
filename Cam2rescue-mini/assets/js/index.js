@@ -1,4 +1,10 @@
+
 $(document).ready(function () {
+    $("#about").hide();
+    $("#contact").hide();
+    $("#signup").hide();
+    $("#login").hide();
+    $("#account").hide();
     $(".home-btn").click(function () {
         $("#home").show();
         $("#about").hide();
