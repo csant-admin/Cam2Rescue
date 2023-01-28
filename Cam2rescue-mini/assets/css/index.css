@@ -1,3 +1,42 @@
 body {
-    background-color: blue;
+    background-color: #FF8C00;
+}
+ul {
+  margin-left: 60%;
+}
+li{
+	display: inline;
+      margin:10px;
+      font-family:oblique;
+      font-weight: bold;	
+      padding-right:10 	px;
+}
+h1{
+	margin-left:40%;
+}
+nav{
+	background-color:white;
+	padding: 10px;  
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+}
+.row{
+	justify-content: center;
+	margin: 5em; 
+}
+
+.column {
+  float: left;
+  width: 48%;
+  padding: 10px;
+  /*height: 300px; /* Should be removed. Only for demonstration */
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
