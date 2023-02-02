@@ -32,6 +32,7 @@
                     </div>
                 </div>
             </div>
+            <!-- navigations starts here! -->
             <div id="about">
                 <div class="">
                     <p> This is About us Page </p>
