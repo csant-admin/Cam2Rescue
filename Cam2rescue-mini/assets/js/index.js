@@ -1,48 +1,27 @@
 
 $(document).ready(function () {
-    $("#about").hide();
-    $("#contact").hide();
-    $("#signup").hide();
-    $("#login").hide();
-    $("#account").hide();
+    $("#about,#contact,#signup,#login,#account").hide();
     $(".home-btn").click(function () {
         $("#home").show();
-        $("#about").hide();
-        $("#contact").hide();
-        $("#signup").hide();
-        $("#login").hide();
-        $("#account").hide();
-    })
+        $("#about,#contact,#signup,#login,#account").hide();
+    });
     $(".about-btn").click(function () {
         $("#about").show();
-        $("#home").hide();
-        $("#contact").hide();
-        $("#signup").hide();
-        $("#login").hide();
-        $("#account").hide();
-    })
+        $("#home,#contact,#signup,#login,#account").hide();
+    });
     $(".contact-btn").click(function () {
         $("#contact").show();
-        $("#about").hide();
-        $("#home").hide();
-        $("#signup").hide();
-        $("#login").hide();
-        $("#account").hide();
-    })
+        $("#home,#about,#signup,#login,#account").hide();
+    });
     $(".signup-btn").click(function () {
         $("#signup").show();
-        $("#about").hide();
-        $("#home").hide();
-        $("#contact").hide();
-        $("#login").hide();
-        $("#account").hide();
-    })
+        $("#home,#about,#contact,#login,#account").hide();
+    });
     $(".login-btn").click(function () {
         $("#login").show();
-        $("#signup").hide();
-        $("#about").hide();
-        $("#home").hide();
-        $("#contact").hide();
-        $("#account").hide();
-    })
-})
+        $("#home,#about,#contact,#signup,#account").hide();
+    });
+    
+});
+
+

@@ -28,7 +28,7 @@
                         <p class=""><span>Adopt</span> Any Pet You Like!</p>
                     </div>
                     <div class="column">
-                        <img src="assets/img/catt.jpg" alt="cat and dog">
+                        <img id="model-image" src="assets/img/catt.jpg" alt="cat and dog">
                     </div>
                 </div>
             </div>
